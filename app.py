@@ -25,12 +25,12 @@ app = Flask(__name__)
 app.secret_key = "doi-chuoi-nay-thanh-gi-do-bi-mat"
 
 # ==== DOI MAT KHAU O DAY ====
-APP_PASSWORD = "giadinh2026"
+APP_PASSWORD = "MCDYHL123"
 # =============================
 
 # Gioi han tong dung luong 1 luot upload (tat ca file cong lai). Tang/giam so
 # nay tuy nhu cau - 60MB du cho ~6-8 anh dien thoai (moi anh ~5-8MB).
-MAX_UPLOAD_MB = 60
+MAX_UPLOAD_MB = 120
 app.config["MAX_CONTENT_LENGTH"] = MAX_UPLOAD_MB * 1024 * 1024
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
